@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.esm.js">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="assets/style/Homepage.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+        #nav{
+            font-size: 40px;
+            color: white;
+            margin-top: -5px;
+            margin-bottom: -5px;
+
+        }
+        #underline1{
+            width: 100px;
+            height: 5px;
+            background: #e49539;
+            bottom: 9px;
+        }
+        #underline2{
+            width: 100px;
+            height: 5px;
+            background: #e49539;
+            bottom: 9px;
+        }
+        #underline4{
+            width: 100px;
+            height: 5px;
+            background: #e49539;
+            bottom: 9px;
+        }
+        #underline5{
+            width: 100px;
+            height: 5px;
+            background: #e49539;
+            bottom: 9px;
+        }
+        #content{
+            margin-top: 165px;
+        }
+
+        #scroll{
+            margin-top: 80px;
+        }
+        #myPhoto{
+            margin-top: 35px;
+        }
+        /*-----------------------------------About me-------------------------------*/
+
+        #myphoto2{
+            margin-left:100px;
+            margin-top: 25px;
+        }
+        #cv{
+            margin-left: 150px;
+        }
+        /*-------------------------------Skills-------------------------------------*/
+        #underline3{
+            width: 100px;
+            height: 5px;
+            background: #e49539;
+            bottom: 9px;
+        }
+        #progress{
+            width: 560px;
+            height: 450px;
+            background: #93aace;
+
+            margin-top: 50px;
+            border-radius: 25px;
+
+        }
+        #java{
+            width: 500px;
+            height: 25px;
+
+        }
+        #sql{
+            width: 500px;
+            height: 25px;
+        }
+        #html{
+            width: 500px;
+            height: 25px;
+        }
+        #css{
+            width: 500px;
+            height: 25px;
+        }
+        #js{
+            width: 500px;
+            height: 25px;
+        }
+        #bar{
+           position: relative;
+           top: 50px;
+           margin-left: 30px;
+        }
+        #social{
+            border: 10px solid #073ca4;
+            width: 600px;
+            border-radius: 100%;
+        }
+        #social1{
+            position: relative;
+            left: 65px;
+        }
+        /*-----------------------Gallery--------------------------*/
+
+        #img2{
+            margin-top: 50px;
+            margin-left:35px;
+        }
+        #img4{
+            margin-top: -50px;
+        }
+        #img6{
+            margin-top: -50px;
+        }
+        /*---------------------------Services-----------------------*/
+        #ui{
+            width: 400px;
+            height: 600px;
+            background-color: #cdba89;
+            border-radius: 40px;
+
+
+        }
+        #ui1{
+            position: relative;
+            bottom: 60px;
+            margin-left: 110px;
+            padding-bottom: 20px;
+        }
+        #logo{
+            width: 400px;
+            height: 600px;
+            background-color: #cdba89;
+            border-radius: 40px;
+        }
+        #logo1{
+            position: relative;
+            bottom: 60px;
+            margin-left: 110px;
+            padding-bottom: 20px;
+        }
+        #web{
+            width: 400px;
+            height: 600px;
+            background-color: #cdba89;
+            border-radius: 40px;
+        }
+        #web1{
+            position: relative;
+            bottom: 60px;
+            margin-left: 110px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg shadow "  >
+        <div class="container-fluid">
+            <a id="nav" class="navbar-brand " href="#">Fortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end justify-content-md-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Assignments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="Homepage" class="container-sm ">
+    <div class="row ">
+        <div id="content" class="col">
+            <div  class="fs-5 fw-bold  ">Hello!!,its me</div>
+            <h2 class="fs-1 fw-bolder w-25 shadow">KALANA<span style="background: #e49539">DANANJAYA</span></h2>
+            <div   class="fs-5 fw-bold " >-FULLSTACK DEVELOPER</div>
+            <div>
+                <p id="para" class=" fs-6">
+                    An enthusiastic Developer currently Shaping the future of
+                    Software development by promote user interaction with
+                    information and data,While studying the world Technologies
+			    </p>
+            </div>
+            <div id="scroll">
+                <h6  class="fs-6 ">SCROLL FOR MORE</h6>
+                <!--Underline-->
+                <div id="underline1"></div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div id="myPhoto" >
+                <img style="background: #0a53be" src="/assets/images/IMG-20230218-WA0018.jpg" alt="" width="600" >
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="container-fluid">
+            <div id="media" >
+
+                <a href="//web.facebook.com/kalana.dweerasinghe/" target="//web.facebook.com/kalana.dweerasinghe/">
+                    <img src="assets/images/facebook.png" alt="" width="40px">
+                </a>
+
+
+                <a href="https://github.com/kalanaD99">
+                    <img src="assets/images/github.png" alt="" width="40px">
+                </a>
+
+                <a href="https://www.linkedin.com/in/kalana-dananjaya-b8787b262/">
+                    <img src="assets/images/linkedin.png" alt=""width="40px">
+                </a>
+
+                <a href="">
+                    <img src="assets/images/whatsapp.png" alt=""width="40px">
+                </a>
+
+                <a href="https://www.instagram.com/kalana_d99/">
+                    <img src="assets/images/instagram.png" alt="" width="40px">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <br>
+
+</section>
+
+<section id="About me" style="background-color: #e9e2e2" >
+    <br>
+    <br>
+    <div class="container-fluid ">
+        <h4 id="about">ABOUT ME</h4>
+        <div id="underline2" class=""></div>
+    </div>
+    <div class="row">
+        <div class="col ">
+            <div  id="myphoto2" class="container justify-content-sm-center">
+                <img src="assets/images/WhatsApp%20Image%202023-02-19%20at%2014.38.48.jpeg" alt="" width="400px">
+            </div>
+        </div>
+
+        <div class="col  ">
+            <div class="mt-5 container justify-content-sm-center">
+                <h1 class="fw-bolder ">I’M KALANA DANANJAYA<br>WEERASINGHE</h1>
+                <div>
+                    <h6 class="fw-bold">A <span style="color: #e49539">SOFTWARE ENGINEER</span>
+                        BASED IN <span style="color: #e49539">SRI LANKA</span> <a >
+                            <img src="assets/images/sri-lanka.png" width="30"  alt=""/>
+                        </a> </h6>
+
+
+                </div>
+                <p class="mt-3 fw-normal">
+                    I’m a Student Of Institute of Java and Software Engineering and Im<br>
+                    Studying my first year undergraduate of the GDSE in Panadura.<br>
+                    Im a highly ambitious and well focused student. I follow my<br>
+                    hard working to achieve my goal......
+                </p>
+
+          <pre class="fw-semibold">
+          <a>Birthday 	: 	24 Mar 1999</a><br>
+          <a>Age  	 	: 	24</a><br>
+          <a>Home Town     : 	Maho,North Western Province</a><br>
+          <a>Birthday 	: 	24 Mar 1999</a><br>
+          <a>Email 	: 	<a href="">kalanadananjya855@gmail.com</a></a><br>
+          <a>Mobile 	: 	+94742945595</a>
+          </pre>
+
+
+                <button id="cv" type="button" class="btn btn-warning "><a href=""></a>DOWNLOAD CV</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</section>
+<section  id="skills" style="background: #d4cece" >
+    <div class="container-fluid">
+        <h4>SKILLS</h4>
+        <div id="underline3"></div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+           <div id="progress" >
+                <div id="bar">
+
+                   <div id="java" class="progress mt-5 " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                       <div class="progress-bar" style="width: 75%">JAVA</div>
+                   </div>
+                   <div ID="sql" class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                       <div class="progress-bar" style="width: 80%">SQL</div>
+                   </div>
+                   <div id="html" class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                       <div class="progress-bar" style="width: 80%">HTML</div>
+                   </div>
+                   <div id="css" class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                       <div class="progress-bar" style="width: 70%">CSS</div>
+                   </div>
+                   <div id="js" class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                       <div class="progress-bar" style="width: 70%">JAVASCRIPT</div>
+                   </div>
+
+
+               </div>
+           </div>
+        </div>
+        <div class="col">
+            <div id="social" class="mt-5 justify-content-sm-center">
+                <div id="social1">
+                    <img  class="mt-5 " src="assets/images/Group%2020.png" alt=""width="450px">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</section>
+<section id="projects">
+    <div></div>
+</section>
+<section id="assignments">
+
+</section>
+<section id="gallery">
+    <div class="container-fluid">
+        <h4>GALLERY</h4>
+        <div id="underline4"></div>
+    </div>
+    <br>
+
+    
+    <div class="container">
+        <div class="row">
+            <div id="img1" class="col">
+                <div>
+                    <img src="assets/images/IMG-20230215-WA0024.jpg" alt="" width="400px">
+                </div>
+            </div>
+            <div id="img2" class="col ">
+                <div>
+                    <img src="assets/images/IMG-20230121-WA0007.jpg" alt="" width="350px">
+                </div>
+            </div>
+            <div id="img3" class="col">
+                <div>
+                    <img src="assets/images/IMG-20230215-WA0069.jpg" alt="" width="400px">
+                </div>
+            </div>
+        </div> 
+        <div class="row">
+            <div id="img4" class="col">
+                <div>
+                    <img src="assets/images/IMG-20230215-WA0071.jpg" alt="" width="400px">
+                </div>
+            </div>
+            <div id="img5" class="col">
+                <div >
+
+                </div>
+            </div>
+            <div id="img6" class="col ">
+                <div >
+                    <img src="assets/images/IMG-20230215-WA0072.jpg" alt="" width="400px">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services" class="mt-5" style="background: #d4c695">
+    <div class="container-fluid">
+        <h4>SERVICES</h4>
+        <div id="underline5"></div>
+    </div>
+    <br>
+    <br>
+    <div class="container mt-5" >
+        <div class="row">
+            <div class="col">
+                <div id="ui" class="shadow">
+                    <div id="ui1">
+                        <img src="assets/images/ui.png" alt="" width="180px" >
+                    </div>
+                    <div class="container">
+                        <h3 class="justify-content-center">UX/UI Design</h3>
+                        <br>
+                        <p>UX/UI Designs are <br> aimed at
+                            creating <br> visually
+                            appealing, <br>brand strengthening
+                            digital interfaces <br>
+                            that attract and
+                            retain users....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="logo" class="shadow">
+                    <div id="logo1">
+                        <img src="assets/images/Group%2045%20(1).png" alt="" width="180px">
+                    </div>
+                    <div class="container">
+                        <h3>Logo Design</h3>
+                        <br>
+                        <p>Unique, Memorable logos that
+                            capture your brandessence.
+                            Multiple concept
+                            to choose from high quality
+                            vector based
+                            files delivered....</p>
+                    </div>
+                </div>
+            </div>
+            <dic class="col">
+                <div id="web" class="shadow">
+                    <div id="web1">
+                        <img src="assets/images/Group%2046.png" alt="" width="180px">
+                    </div>
+                    <div class="container">
+                        <h3>Web Development</h3>
+                        <br>
+                        <p>Custom websites designed for user friendly
+                            and search engine optimization.
+                            Engaged your visitors and drive business
+                            growth with our team.....</p>
+                    </div>
+                </div>
+            </dic>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+</body>
+</html>

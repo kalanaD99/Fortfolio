@@ -1,0 +1,39 @@
+header{
+    background: #e49539;
+    width: 100%;
+}
+#scroll{
+    margin-bottom: 0;
+}
+#scroll1{
+    top: 175px;
+}
+#underline{
+    width: 100px;
+    height: 5px;
+    background: #e49539;
+}
+#myPhoto{
+    position: relative;
+    top: 35px;
+    right: 0;
+}
+#disc{
+    top:100px;
+}
+#dev{
+    top: 90px;
+}
+#name2{
+    top: 100px;
+    left: 175px;
+    width: 250px;
+}
+#name1{
+    top: 155px;
+
+
+}
+#helllo{
+    top: 160px;
+}
